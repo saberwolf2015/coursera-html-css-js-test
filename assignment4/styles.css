@@ -1,0 +1,22 @@
+/* some styles for debug section */
+#debug {
+  background-color: #0099CC;
+  width: 200px;
+  border: 1px solid #0099CC;
+  margin-left: auto;
+  margin-right: auto;
+}
+#debug h2 {
+  text-align: center;
+  border-bottom: 1px solid #0099CC;
+  margin: 0px;
+}
+#debug div {
+  padding: 5px;
+}
+#debug div:nth-child(even) {
+  background: #CCFFCC;
+}
+#debug div:nth-child(odd) {
+  background: #66CCFF;
+}
